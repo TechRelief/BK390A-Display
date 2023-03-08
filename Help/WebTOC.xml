@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="5e497880-4db7-45af-aec7-9eb2caf0c19d" Title="BK390A_Display Namespace" Url="html/N-BK390A_Display.htm">
+    <HelpTOCNode Id="c48d1569-8a42-4163-b91b-57d667d0f409" Title="BK390Collector Class" Url="html/T-BK390A_Display.BK390Collector.htm">
+      <HelpTOCNode Title="BK390Collector Members" Url="html/AllMembers.T-BK390A_Display.BK390Collector.htm" />
+      <HelpTOCNode Title="BK390Collector Constructor " Url="html/M-BK390A_Display.BK390Collector.-ctor.htm" />
+      <HelpTOCNode Id="8c3b2896-2f28-48d7-a47c-e9c91468cd3d" Title="BK390Collector Methods" Url="html/Methods.T-BK390A_Display.BK390Collector.htm">
+        <HelpTOCNode Title="Clear Method " Url="html/M-BK390A_Display.BK390Collector.Clear.htm" />
+        <HelpTOCNode Title="Collect Method " Url="html/M-BK390A_Display.BK390Collector.Collect.htm" />
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/M-BK390A_Display.BK390Collector.GetEnumerator.htm" />
+        <HelpTOCNode Title="GetPacket Method " Url="html/M-BK390A_Display.BK390Collector.GetPacket.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d9172dd3-12cf-4316-ba56-da81e9051ca9" Title="BK390Collector Properties" Url="html/Properties.T-BK390A_Display.BK390Collector.htm">
+        <HelpTOCNode Title="Count Property " Url="html/P-BK390A_Display.BK390Collector.Count.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5fc7e429-c92a-496e-b5f2-239a1e953b64" Title="BK390Data Class" Url="html/T-BK390A_Display.BK390Data.htm">
+      <HelpTOCNode Title="BK390Data Members" Url="html/AllMembers.T-BK390A_Display.BK390Data.htm" />
+      <HelpTOCNode Title="BK390Data Constructor " Url="html/M-BK390A_Display.BK390Data.-ctor.htm" />
+      <HelpTOCNode Id="ef792de0-91b9-4745-aff9-2d72bdc5379f" Title="BK390Data Fields" Url="html/Fields.T-BK390A_Display.BK390Data.htm">
+        <HelpTOCNode Title="ACDC Field" Url="html/F-BK390A_Display.BK390Data.ACDC.htm" />
+        <HelpTOCNode Title="APO Field" Url="html/F-BK390A_Display.BK390Data.APO.htm" />
+        <HelpTOCNode Title="Decimals Field" Url="html/F-BK390A_Display.BK390Data.Decimals.htm" />
+        <HelpTOCNode Title="FuncCode Field" Url="html/F-BK390A_Display.BK390Data.FuncCode.htm" />
+        <HelpTOCNode Title="MinMax Field" Url="html/F-BK390A_Display.BK390Data.MinMax.htm" />
+        <HelpTOCNode Title="Mode Field" Url="html/F-BK390A_Display.BK390Data.Mode.htm" />
+        <HelpTOCNode Title="Opt1Code Field" Url="html/F-BK390A_Display.BK390Data.Opt1Code.htm" />
+        <HelpTOCNode Title="Opt2Code Field" Url="html/F-BK390A_Display.BK390Data.Opt2Code.htm" />
+        <HelpTOCNode Title="Postfix Field" Url="html/F-BK390A_Display.BK390Data.Postfix.htm" />
+        <HelpTOCNode Title="Prefix Field" Url="html/F-BK390A_Display.BK390Data.Prefix.htm" />
+        <HelpTOCNode Title="RangeCode Field" Url="html/F-BK390A_Display.BK390Data.RangeCode.htm" />
+        <HelpTOCNode Title="Sign Field" Url="html/F-BK390A_Display.BK390Data.Sign.htm" />
+        <HelpTOCNode Title="Status Field" Url="html/F-BK390A_Display.BK390Data.Status.htm" />
+        <HelpTOCNode Title="StatusCode Field" Url="html/F-BK390A_Display.BK390Data.StatusCode.htm" />
+        <HelpTOCNode Title="Unit Field" Url="html/F-BK390A_Display.BK390Data.Unit.htm" />
+        <HelpTOCNode Title="VAHz Field" Url="html/F-BK390A_Display.BK390Data.VAHz.htm" />
+        <HelpTOCNode Title="Value Field" Url="html/F-BK390A_Display.BK390Data.Value.htm" />
+        <HelpTOCNode Title="ValueString Field" Url="html/F-BK390A_Display.BK390Data.ValueString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="70017cd0-bbe1-48e8-babb-c7da2465d72d" Title="BK390Data Methods" Url="html/Methods.T-BK390A_Display.BK390Data.htm">
+        <HelpTOCNode Title="Clear Method " Url="html/M-BK390A_Display.BK390Data.Clear.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="738bbea5-752d-4428-989b-fa6d2c9e66c8" Title="BK390Decoder Class" Url="html/T-BK390A_Display.BK390Decoder.htm">
+      <HelpTOCNode Title="BK390Decoder Members" Url="html/AllMembers.T-BK390A_Display.BK390Decoder.htm" />
+      <HelpTOCNode Title="BK390Decoder Constructor " Url="html/M-BK390A_Display.BK390Decoder.-ctor.htm" />
+      <HelpTOCNode Id="3b93f3e3-df7d-4df1-b651-aa00f186dbb6" Title="BK390Decoder Fields" Url="html/Fields.T-BK390A_Display.BK390Decoder.htm">
+        <HelpTOCNode Title="Degree Field" Url="html/F-BK390A_Display.BK390Decoder.Degree.htm" />
+        <HelpTOCNode Title="Micro Field" Url="html/F-BK390A_Display.BK390Decoder.Micro.htm" />
+        <HelpTOCNode Title="Ohm Field" Url="html/F-BK390A_Display.BK390Decoder.Ohm.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="15e5737f-b8cd-4561-a220-9f0d3a39707e" Title="BK390Decoder Methods" Url="html/Methods.T-BK390A_Display.BK390Decoder.htm">
+        <HelpTOCNode Title="Decode Method " Url="html/M-BK390A_Display.BK390Decoder.Decode.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5e2af545-6591-44bd-b8e8-078f07e996e7" Title="BK390Decoder Properties" Url="html/Properties.T-BK390A_Display.BK390Decoder.htm">
+        <HelpTOCNode Title="Data Property " Url="html/P-BK390A_Display.BK390Decoder.Data.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bccea1d7-4e35-447f-a10d-8dee0a0c4cd2" Title="FrmMain Class" Url="html/T-BK390A_Display.FrmMain.htm">
+      <HelpTOCNode Title="FrmMain Members" Url="html/AllMembers.T-BK390A_Display.FrmMain.htm" />
+      <HelpTOCNode Title="FrmMain Constructor " Url="html/M-BK390A_Display.FrmMain.-ctor.htm" />
+      <HelpTOCNode Title="FrmMain Methods" Url="html/Methods.T-BK390A_Display.FrmMain.htm" />
+      <HelpTOCNode Title="FrmMain Properties" Url="html/Properties.T-BK390A_Display.FrmMain.htm" />
+      <HelpTOCNode Title="FrmMain Events" Url="html/Events.T-BK390A_Display.FrmMain.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

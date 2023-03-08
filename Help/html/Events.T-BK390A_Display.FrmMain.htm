@@ -1,0 +1,1043 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"[]>
+<html>
+  <head><link rel="shortcut icon" href="../favicon.ico" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="save" content="history" />
+    <title>FrmMain Events</title>
+    <link rel="stylesheet" type="text/css" href="../styles/lightweight.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <link rel="stylesheet" type="text/css" href="../styles/lw-code.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <script type="text/javascript" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" src="../scripts/languageSelector.js"> </script>
+    <meta name="container" content="BK390A_Display" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="file" content="Events.T-BK390A_Display.FrmMain" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="guid" content="Events.T-BK390A_Display.FrmMain" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <xml xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <MSHelp:Attr Name="AssetID" Value="Events.T:BK390A_Display.FrmMain" />
+      <MSHelp:TOCTitle Title="FrmMain Events" />
+      <MSHelp:RLTitle Title="FrmMain Events (BK390A_Display)" />
+      <MSHelp:Keyword Index="A" Term="Events.T:BK390A_Display.FrmMain" />
+      <MSHelp:Keyword Index="A" Term="frlrfBK390A_DisplayFrmMainEventsTopic" />
+      <MSHelp:Keyword Index="K" Term="FrmMain class, events" />
+      <MSHelp:Attr Name="DevLang" Value="CSharp" />
+      <MSHelp:Attr Name="DevLang" Value="VB" />
+      <MSHelp:Attr Name="Locale" Value="en-us" />
+      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
+      <MSHelp:Attr Name="TopicType" Value="apiref" />
+      <MSHelp:Attr Name="AssemblyVersion" Value="" />
+    </xml>
+  <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
+  <body onload="javascript: Initialize();" onresize="javascript: ResizeTree();">
+            <div id="TOCDiv" class="TOCDiv" style="width: 310px; float: left; position: relative; ">
+
+            <div id="divSearchOpts" class="SearchOpts" style="height: 95px; display: none;">
+                <div class="SearchOptsInner">
+                    <img class="TOCLink" onclick="javascript: ShowHideSearch(false);" src="../Close.png" height="24" width="24" alt="Hide Search" title="Hide Search" style="float: right;" />
+                    <span class="Title">Keyword(s) to search:</span>
+                </div>
+                <div class="SearchOptsInner">
+                    <input id="txtSearchText" type="text" style="width: 95.5%;" onkeypress="javascript: return OnSearchTextKeyPress(event);" />
+                </div>
+                <div class="SearchOptsInner">
+                    <input id="chkSortByTitle" type="checkbox" />&nbsp;Sort results by title
+                    <input type="button" value="Search" onclick="javascript: return PerformSearch();" style="float: right;" />
+                </div>
+            </div>
+
+            <div id="divIndexOpts" class="IndexOpts" style="height: 28px; display: none;">
+                <img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+                     src="../Close.png" height="24" width="24" alt="Hide Keyword Index" title="Hide Keyword Index" style="float: right;" />
+                <span class="Title">Keyword Index</span>
+            </div>
+
+            <div id="divNavOpts" class="NavOpts" style="height: 28px;">
+                <!--<img class="TOCLink" onclick="javascript: SyncTOC();" src="../SyncTOC.png"
+                     height="24" width="24" alt="Sync to TOC" title="Sync to TOC" />-->
+                <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+                     src="../ExpandAll.png" height="24" width="24" alt="Expand all" title="Expand all" />
+                <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+                     src="../CollapseAll.png" height="24" width="24" alt="Collapse all" title="Collapse all" />
+                <!--<img class="TOCLink" onclick="javascript: alert('Please make sure to use either Index.aspx or Index.php to enable the Keyword Index feature.');"
+                     src="../Index.png" height="24" width="24" alt="Keyword Index" title="Keyword Index" />-->
+                <img class="TOCLink" onclick="javascript: ShowHideSearch(true);"
+                     src="../Search.png" height="24" width="24" alt="Search" title="Search" />
+                <img class="TOCLink" onclick="javascript: ShowDirectLink();"
+                     src="../Link.png" height="24" width="24" alt="Get direct link to the displayed topic" title="Get direct link to the displayed topic" />
+                <a href="#" onclick="javascript: window.history.go(-1); return false;">
+                    <img class="TOCLink" style="float: right;"
+                         src="../Back.png" height="24" width="24" alt="Previous page" title="Previous page" />
+                </a>
+            </div>
+
+            <div class="Tree" id="divSearchResults" style="display: none;"
+                 onselectstart="javascript: return false;">
+            </div>
+
+            <div class="Tree" id="divIndexResults" style="display: none;"
+                 onselectstart="javascript: return false;">
+            </div>
+
+            <div class="Tree" id="divTree" onselectstart="javascript: return false;">
+              <div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-BK390A_Display.htm" target="_self">BK390A_Display Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-BK390A_Display.BK390Collector.htm" target="_self">BK390Collector Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-BK390A_Display.BK390Data.htm" target="_self">BK390Data Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-BK390A_Display.BK390Decoder.htm" target="_self">BK390Decoder Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-BK390A_Display.FrmMain.htm" target="_self">FrmMain Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="AllMembers.T-BK390A_Display.FrmMain.htm" target="_self">FrmMain Members</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-BK390A_Display.FrmMain.-ctor.htm" target="_self">FrmMain Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Methods.T-BK390A_Display.FrmMain.htm" target="_self">FrmMain Methods</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Properties.T-BK390A_Display.FrmMain.htm" target="_self">FrmMain Properties</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="Events.T-BK390A_Display.FrmMain.htm" target="_self">FrmMain Events</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+            </div>
+
+        </div>
+
+        <div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+        
+        <div id ="TopicContent" name="TopicContent" class="TopicContent" style="float: none; margin-left: 312px;height: -webkit-fill-available;display:block;overflow: auto;">
+          
+          <!-- Content Starts Here -->
+          <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <div class="content">
+        <div class="topicContainer">
+          <div class="topic">
+            <p class="majorTitle" />
+            <h1 class="title">FrmMain Events</h1>
+            <div id="mainSection">
+              <div id="mainBody">
+                <p>The <a href="T-BK390A_Display.FrmMain.htm">FrmMain</a> type exposes the following members.</p>
+                <div class="LW_CollapsibleArea_Container">
+                  <div class="LW_CollapsibleArea_TitleDiv">
+                    <h2 class="LW_CollapsibleArea_Title">Events</h2>
+                    <div class="LW_CollapsibleArea_HrDiv">
+                      <hr class="LW_CollapsibleArea_Hr" />
+                    </div>
+                  </div>
+                  <a id="eventTableSection">
+                    <!---->
+                  </a>
+                  <table class="members">
+                    <tr>
+                      <th class="iconColumn">
+               
+            </th>
+                      <th class="nameColumn">Name</th>
+                      <th class="descriptionColumn">Description</th>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.activated" target="_blank">Activated</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.autosizechanged" target="_blank">AutoSizeChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.autovalidatechanged" target="_blank">AutoValidateChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.backcolorchanged" target="_blank">BackColorChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.backgroundimagechanged" target="_blank">BackgroundImageChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.backgroundimagelayoutchanged" target="_blank">BackgroundImageLayoutChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.bindingcontextchanged" target="_blank">BindingContextChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.causesvalidationchanged" target="_blank">CausesValidationChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.changeuicues" target="_blank">ChangeUICues</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.click" target="_blank">Click</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.clientsizechanged" target="_blank">ClientSizeChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.closed" target="_blank">Closed</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.closing" target="_blank">Closing</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.contextmenustripchanged" target="_blank">ContextMenuStripChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.controladded" target="_blank">ControlAdded</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.controlremoved" target="_blank">ControlRemoved</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.cursorchanged" target="_blank">CursorChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.datacontextchanged" target="_blank">DataContextChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.deactivate" target="_blank">Deactivate</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.component.disposed" target="_blank">Disposed</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.component" target="_blank">Component</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.dockchanged" target="_blank">DockChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.doubleclick" target="_blank">DoubleClick</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.dpichanged" target="_blank">DpiChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.dpichangedafterparent" target="_blank">DpiChangedAfterParent</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.dpichangedbeforeparent" target="_blank">DpiChangedBeforeParent</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.dragdrop" target="_blank">DragDrop</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.dragenter" target="_blank">DragEnter</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.dragleave" target="_blank">DragLeave</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.dragover" target="_blank">DragOver</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.enabledchanged" target="_blank">EnabledChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.enter" target="_blank">Enter</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.fontchanged" target="_blank">FontChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.forecolorchanged" target="_blank">ForeColorChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.formclosed" target="_blank">FormClosed</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.formclosing" target="_blank">FormClosing</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.givefeedback" target="_blank">GiveFeedback</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.gotfocus" target="_blank">GotFocus</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.handlecreated" target="_blank">HandleCreated</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.handledestroyed" target="_blank">HandleDestroyed</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.helpbuttonclicked" target="_blank">HelpButtonClicked</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.helprequested" target="_blank">HelpRequested</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.imemodechanged" target="_blank">ImeModeChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.inputlanguagechanged" target="_blank">InputLanguageChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.inputlanguagechanging" target="_blank">InputLanguageChanging</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.invalidated" target="_blank">Invalidated</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.keydown" target="_blank">KeyDown</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.keypress" target="_blank">KeyPress</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.keyup" target="_blank">KeyUp</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.layout" target="_blank">Layout</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.leave" target="_blank">Leave</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.load" target="_blank">Load</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.locationchanged" target="_blank">LocationChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.lostfocus" target="_blank">LostFocus</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.marginchanged" target="_blank">MarginChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.maximizedboundschanged" target="_blank">MaximizedBoundsChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.maximumsizechanged" target="_blank">MaximumSizeChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.mdichildactivate" target="_blank">MdiChildActivate</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.menucomplete" target="_blank">MenuComplete</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.menustart" target="_blank">MenuStart</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.minimumsizechanged" target="_blank">MinimumSizeChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.mousecapturechanged" target="_blank">MouseCaptureChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.mouseclick" target="_blank">MouseClick</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.mousedoubleclick" target="_blank">MouseDoubleClick</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.mousedown" target="_blank">MouseDown</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.mouseenter" target="_blank">MouseEnter</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.mousehover" target="_blank">MouseHover</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.mouseleave" target="_blank">MouseLeave</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.mousemove" target="_blank">MouseMove</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.mouseup" target="_blank">MouseUp</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.mousewheel" target="_blank">MouseWheel</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.move" target="_blank">Move</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.paddingchanged" target="_blank">PaddingChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.paint" target="_blank">Paint</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.parentchanged" target="_blank">ParentChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.previewkeydown" target="_blank">PreviewKeyDown</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.queryaccessibilityhelp" target="_blank">QueryAccessibilityHelp</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.querycontinuedrag" target="_blank">QueryContinueDrag</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.regionchanged" target="_blank">RegionChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.resize" target="_blank">Resize</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.resizebegin" target="_blank">ResizeBegin</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.resizeend" target="_blank">ResizeEnd</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.righttoleftchanged" target="_blank">RightToLeftChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.righttoleftlayoutchanged" target="_blank">RightToLeftLayoutChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.scrollablecontrol.scroll" target="_blank">Scroll</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.scrollablecontrol" target="_blank">ScrollableControl</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.shown" target="_blank">Shown</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.sizechanged" target="_blank">SizeChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.stylechanged" target="_blank">StyleChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.systemcolorschanged" target="_blank">SystemColorsChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.tabindexchanged" target="_blank">TabIndexChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.tabstopchanged" target="_blank">TabStopChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form" target="_blank">Form</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.textchanged" target="_blank">TextChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.validated" target="_blank">Validated</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.validating" target="_blank">Validating</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                    <tr data="public;inherited;notNetfw;">
+                      <td>
+                        <img src="../icons/pubevent.gif" alt="Public event" title="Public event" />
+                      </td>
+                      <td>
+                        <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.visiblechanged" target="_blank">VisibleChanged</a>
+                      </td>
+                      <td> (Inherited from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control" target="_blank">Control</a>.)</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="LW_CollapsibleArea_Container">
+                  <div class="LW_CollapsibleArea_TitleDiv">
+                    <h2 class="LW_CollapsibleArea_Title">See Also</h2>
+                    <div class="LW_CollapsibleArea_HrDiv">
+                      <hr class="LW_CollapsibleArea_Hr" />
+                    </div>
+                  </div>
+                  <a id="seeAlsoSection">
+                    <!---->
+                  </a>
+                  <div class="seeAlsoStyle">
+                    <a href="T-BK390A_Display.FrmMain.htm">FrmMain Class</a>
+                  </div>
+                  <div class="seeAlsoStyle">
+                    <a href="N-BK390A_Display.htm">BK390A_Display Namespace</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div id="footer" class="footerContainer">
+          <div class="footerLogoContainer">
+            <div style="margin-top:5px">
+              <span class="customCopyrightFooter" />
+            </div>
+            <div style="margin-top:5px" class="copyrightFooter">Help File generated with GhostDoc</div>
+            <div> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          <!-- /Content Ends Here -->
+        </div>
+
+
+  </body>
+</html>

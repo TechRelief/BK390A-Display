@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="ACDC field" Url="html/F-BK390A_Display.BK390Data.ACDC.htm" />
+  <HelpKINode Title="APO field" Url="html/F-BK390A_Display.BK390Data.APO.htm" />
+  <HelpKINode Title="BK390A_Display namespace" Url="html/N-BK390A_Display.htm" />
+  <HelpKINode Title="BK390A_Display.BK390Collector class" Url="html/AllMembers.T-BK390A_Display.BK390Collector.htm" />
+  <HelpKINode Title="BK390A_Display.BK390Collector class" Url="html/T-BK390A_Display.BK390Collector.htm" />
+  <HelpKINode Title="BK390A_Display.BK390Data class" Url="html/AllMembers.T-BK390A_Display.BK390Data.htm" />
+  <HelpKINode Title="BK390A_Display.BK390Data class" Url="html/T-BK390A_Display.BK390Data.htm" />
+  <HelpKINode Title="BK390A_Display.BK390Decoder class" Url="html/AllMembers.T-BK390A_Display.BK390Decoder.htm" />
+  <HelpKINode Title="BK390A_Display.BK390Decoder class" Url="html/T-BK390A_Display.BK390Decoder.htm" />
+  <HelpKINode Title="BK390A_Display.FrmMain class" Url="html/AllMembers.T-BK390A_Display.FrmMain.htm" />
+  <HelpKINode Title="BK390A_Display.FrmMain class" Url="html/T-BK390A_Display.FrmMain.htm" />
+  <HelpKINode Title="BK390Collector class" Url="html/AllMembers.T-BK390A_Display.BK390Collector.htm" />
+  <HelpKINode Title="BK390Collector class" Url="html/T-BK390A_Display.BK390Collector.htm" />
+  <HelpKINode Title="BK390Collector class">
+    <HelpKINode Title="about BK390Collector class" Url="html/T-BK390A_Display.BK390Collector.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-BK390A_Display.BK390Collector.htm" />
+    <HelpKINode Title="constructor" Url="html/M-BK390A_Display.BK390Collector.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-BK390A_Display.BK390Collector.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-BK390A_Display.BK390Collector.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BK390Collector.BK390Collector constructor" Url="html/M-BK390A_Display.BK390Collector.-ctor.htm" />
+  <HelpKINode Title="BK390Collector.Clear method" Url="html/M-BK390A_Display.BK390Collector.Clear.htm" />
+  <HelpKINode Title="BK390Collector.Collect method" Url="html/M-BK390A_Display.BK390Collector.Collect.htm" />
+  <HelpKINode Title="BK390Collector.Count property" Url="html/P-BK390A_Display.BK390Collector.Count.htm" />
+  <HelpKINode Title="BK390Collector.GetEnumerator method" Url="html/M-BK390A_Display.BK390Collector.GetEnumerator.htm" />
+  <HelpKINode Title="BK390Collector.GetPacket method" Url="html/M-BK390A_Display.BK390Collector.GetPacket.htm" />
+  <HelpKINode Title="BK390Data class" Url="html/AllMembers.T-BK390A_Display.BK390Data.htm" />
+  <HelpKINode Title="BK390Data class" Url="html/T-BK390A_Display.BK390Data.htm" />
+  <HelpKINode Title="BK390Data class">
+    <HelpKINode Title="about BK390Data class" Url="html/T-BK390A_Display.BK390Data.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-BK390A_Display.BK390Data.htm" />
+    <HelpKINode Title="constructor" Url="html/M-BK390A_Display.BK390Data.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-BK390A_Display.BK390Data.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-BK390A_Display.BK390Data.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BK390Data.ACDC field" Url="html/F-BK390A_Display.BK390Data.ACDC.htm" />
+  <HelpKINode Title="BK390Data.APO field" Url="html/F-BK390A_Display.BK390Data.APO.htm" />
+  <HelpKINode Title="BK390Data.BK390Data constructor" Url="html/M-BK390A_Display.BK390Data.-ctor.htm" />
+  <HelpKINode Title="BK390Data.Clear method" Url="html/M-BK390A_Display.BK390Data.Clear.htm" />
+  <HelpKINode Title="BK390Data.Decimals field" Url="html/F-BK390A_Display.BK390Data.Decimals.htm" />
+  <HelpKINode Title="BK390Data.FuncCode field" Url="html/F-BK390A_Display.BK390Data.FuncCode.htm" />
+  <HelpKINode Title="BK390Data.MinMax field" Url="html/F-BK390A_Display.BK390Data.MinMax.htm" />
+  <HelpKINode Title="BK390Data.Mode field" Url="html/F-BK390A_Display.BK390Data.Mode.htm" />
+  <HelpKINode Title="BK390Data.Opt1Code field" Url="html/F-BK390A_Display.BK390Data.Opt1Code.htm" />
+  <HelpKINode Title="BK390Data.Opt2Code field" Url="html/F-BK390A_Display.BK390Data.Opt2Code.htm" />
+  <HelpKINode Title="BK390Data.Postfix field" Url="html/F-BK390A_Display.BK390Data.Postfix.htm" />
+  <HelpKINode Title="BK390Data.Prefix field" Url="html/F-BK390A_Display.BK390Data.Prefix.htm" />
+  <HelpKINode Title="BK390Data.RangeCode field" Url="html/F-BK390A_Display.BK390Data.RangeCode.htm" />
+  <HelpKINode Title="BK390Data.Sign field" Url="html/F-BK390A_Display.BK390Data.Sign.htm" />
+  <HelpKINode Title="BK390Data.Status field" Url="html/F-BK390A_Display.BK390Data.Status.htm" />
+  <HelpKINode Title="BK390Data.StatusCode field" Url="html/F-BK390A_Display.BK390Data.StatusCode.htm" />
+  <HelpKINode Title="BK390Data.Unit field" Url="html/F-BK390A_Display.BK390Data.Unit.htm" />
+  <HelpKINode Title="BK390Data.VAHz field" Url="html/F-BK390A_Display.BK390Data.VAHz.htm" />
+  <HelpKINode Title="BK390Data.Value field" Url="html/F-BK390A_Display.BK390Data.Value.htm" />
+  <HelpKINode Title="BK390Data.ValueString field" Url="html/F-BK390A_Display.BK390Data.ValueString.htm" />
+  <HelpKINode Title="BK390Decoder class" Url="html/AllMembers.T-BK390A_Display.BK390Decoder.htm" />
+  <HelpKINode Title="BK390Decoder class" Url="html/T-BK390A_Display.BK390Decoder.htm" />
+  <HelpKINode Title="BK390Decoder class">
+    <HelpKINode Title="about BK390Decoder class" Url="html/T-BK390A_Display.BK390Decoder.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-BK390A_Display.BK390Decoder.htm" />
+    <HelpKINode Title="constructor" Url="html/M-BK390A_Display.BK390Decoder.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-BK390A_Display.BK390Decoder.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-BK390A_Display.BK390Decoder.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-BK390A_Display.BK390Decoder.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BK390Decoder.BK390Decoder constructor" Url="html/M-BK390A_Display.BK390Decoder.-ctor.htm" />
+  <HelpKINode Title="BK390Decoder.Data property" Url="html/P-BK390A_Display.BK390Decoder.Data.htm" />
+  <HelpKINode Title="BK390Decoder.Decode method" Url="html/M-BK390A_Display.BK390Decoder.Decode.htm" />
+  <HelpKINode Title="BK390Decoder.Degree field" Url="html/F-BK390A_Display.BK390Decoder.Degree.htm" />
+  <HelpKINode Title="BK390Decoder.Micro field" Url="html/F-BK390A_Display.BK390Decoder.Micro.htm" />
+  <HelpKINode Title="BK390Decoder.Ohm field" Url="html/F-BK390A_Display.BK390Decoder.Ohm.htm" />
+  <HelpKINode Title="Clear method" Url="html/M-BK390A_Display.BK390Collector.Clear.htm" />
+  <HelpKINode Title="Clear method" Url="html/M-BK390A_Display.BK390Data.Clear.htm" />
+  <HelpKINode Title="Collect method" Url="html/M-BK390A_Display.BK390Collector.Collect.htm" />
+  <HelpKINode Title="Count property" Url="html/P-BK390A_Display.BK390Collector.Count.htm" />
+  <HelpKINode Title="Data property" Url="html/P-BK390A_Display.BK390Decoder.Data.htm" />
+  <HelpKINode Title="Decimals field" Url="html/F-BK390A_Display.BK390Data.Decimals.htm" />
+  <HelpKINode Title="Decode method" Url="html/M-BK390A_Display.BK390Decoder.Decode.htm" />
+  <HelpKINode Title="Degree field" Url="html/F-BK390A_Display.BK390Decoder.Degree.htm" />
+  <HelpKINode Title="FrmMain class" Url="html/AllMembers.T-BK390A_Display.FrmMain.htm" />
+  <HelpKINode Title="FrmMain class" Url="html/T-BK390A_Display.FrmMain.htm" />
+  <HelpKINode Title="FrmMain class">
+    <HelpKINode Title="about FrmMain class" Url="html/T-BK390A_Display.FrmMain.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-BK390A_Display.FrmMain.htm" />
+    <HelpKINode Title="constructor" Url="html/M-BK390A_Display.FrmMain.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-BK390A_Display.FrmMain.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-BK390A_Display.FrmMain.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-BK390A_Display.FrmMain.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FrmMain.FrmMain constructor" Url="html/M-BK390A_Display.FrmMain.-ctor.htm" />
+  <HelpKINode Title="FuncCode field" Url="html/F-BK390A_Display.BK390Data.FuncCode.htm" />
+  <HelpKINode Title="GetEnumerator method" Url="html/M-BK390A_Display.BK390Collector.GetEnumerator.htm" />
+  <HelpKINode Title="GetPacket method" Url="html/M-BK390A_Display.BK390Collector.GetPacket.htm" />
+  <HelpKINode Title="Micro field" Url="html/F-BK390A_Display.BK390Decoder.Micro.htm" />
+  <HelpKINode Title="MinMax field" Url="html/F-BK390A_Display.BK390Data.MinMax.htm" />
+  <HelpKINode Title="Mode field" Url="html/F-BK390A_Display.BK390Data.Mode.htm" />
+  <HelpKINode Title="Ohm field" Url="html/F-BK390A_Display.BK390Decoder.Ohm.htm" />
+  <HelpKINode Title="Opt1Code field" Url="html/F-BK390A_Display.BK390Data.Opt1Code.htm" />
+  <HelpKINode Title="Opt2Code field" Url="html/F-BK390A_Display.BK390Data.Opt2Code.htm" />
+  <HelpKINode Title="Postfix field" Url="html/F-BK390A_Display.BK390Data.Postfix.htm" />
+  <HelpKINode Title="Prefix field" Url="html/F-BK390A_Display.BK390Data.Prefix.htm" />
+  <HelpKINode Title="RangeCode field" Url="html/F-BK390A_Display.BK390Data.RangeCode.htm" />
+  <HelpKINode Title="Sign field" Url="html/F-BK390A_Display.BK390Data.Sign.htm" />
+  <HelpKINode Title="Status field" Url="html/F-BK390A_Display.BK390Data.Status.htm" />
+  <HelpKINode Title="StatusCode field" Url="html/F-BK390A_Display.BK390Data.StatusCode.htm" />
+  <HelpKINode Title="Unit field" Url="html/F-BK390A_Display.BK390Data.Unit.htm" />
+  <HelpKINode Title="VAHz field" Url="html/F-BK390A_Display.BK390Data.VAHz.htm" />
+  <HelpKINode Title="Value field" Url="html/F-BK390A_Display.BK390Data.Value.htm" />
+  <HelpKINode Title="ValueString field" Url="html/F-BK390A_Display.BK390Data.ValueString.htm" />
+</HelpKI>
